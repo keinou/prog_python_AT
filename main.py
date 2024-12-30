@@ -2,6 +2,7 @@
 Modulo principal que executa o sistema
 """
 
+
 from estoque import carregar_estoque_inicial, cadastrar_produto, listar_produtos, buscar_produto, remover_produto, atualizar_estoque, atualizar_preco
 from relatorios import valor_total_estoque, calcular_lucro_presumido, gerar_relatorio_geral
 
